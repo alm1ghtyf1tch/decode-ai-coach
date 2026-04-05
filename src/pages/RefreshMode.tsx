@@ -49,7 +49,7 @@ export default function RefreshMode() {
             key={m.time}
             onClick={() => setActiveMode(m.time)}
             className={cn(
-              `glass-card p-5 rounded-xl text-center bg-gradient-to-b ${m.gradient} group`,
+              `glass-card p-5 rounded-xl text-center bg-gradient-to-b ${m.color} group`,
               activeMode === m.time && "border-primary/50 neon-glow-blue"
             )}
           >
